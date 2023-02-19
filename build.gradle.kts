@@ -1,12 +1,33 @@
 plugins {
     kotlin("multiplatform") version "1.8.20-Beta"
+    `maven-publish`
 }
 
 group = "com.sakoss.library"
-version = "2.0.0"
+version = "2.0.0-RC1"
 
 repositories {
     mavenCentral()
+}
+
+publishing {
+    publications.withType<MavenPublication> {
+        pom {
+            name.set("cuid2")
+            description.set("Kotlin Cuid2 MultiPlatform Library")
+            url.set("https://github.com/Sakoss-Developers/cuid")
+
+            licenses {
+                license {
+                    name.set("LGPL-2.1 license")
+                    url.set("https://github.com/Sakoss-Developers/cuid/blob/main/LICENSE")
+                }
+            }
+            scm {
+                url.set("https://github.com/Sakoss-Developers/cuid")
+            }
+        }
+    }
 }
 
 kotlin {

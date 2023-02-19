@@ -1,3 +1,3 @@
 
-rootProject.name = "kotlin-cuid"
+rootProject.name = "cuid2"
 

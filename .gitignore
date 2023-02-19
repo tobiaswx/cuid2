@@ -39,3 +39,4 @@ gradle-app.setting
 # IDEA
 .idea
 build
+/kotlin-js-store/*

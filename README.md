@@ -1,3 +1,6 @@
+# ❗Important 17/02/2023
+For various personal and work-related reasons, I have not been able to maintain this project (and others that are currently set to "private") for almost a year. Now I have time again! Soon I will update this project and fix the build pipeline. Regular updates of the dependencies and kotlin version are planned for the future. More information will follow soon.
+
 # Kotlin Cuid2 MultiPlatform Library
 
 <!-- TOC -->
